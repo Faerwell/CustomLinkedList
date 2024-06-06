@@ -26,4 +26,9 @@ public class MyListLinked implements CustomLinkedList{
             currentNode = currentNode.next;
         }
     }
+
+    @Override
+    public void get(MyListLinked list, Node node) {
+
+    }
 }

@@ -5,5 +5,6 @@ public class Runner {
         myList.insert(myList, 1);
         myList.insert(myList, 2);
         myList.show(myList);
+        myList.get(myList, new Node(1));
     }
 }

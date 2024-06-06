@@ -11,5 +11,6 @@ public class Runner {
         Node[] nodes = new Node[5];
         myList.addAll(myList, nodes);
         myList.show(myList);
+        myList.get(myList, nodes,3);
     }
 }

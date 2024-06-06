@@ -31,8 +31,14 @@ public class MyListLinked implements CustomLinkedList{
     }
 
     @Override
-    public void get(MyListLinked list, Node node) {
-
+    public void get(MyListLinked list, Node[] nodes, int data) {
+        for (Node node : nodes) {
+            if (node.getData() == data) {
+                System.out.println(node.getData());
+            } else {
+                System.out.println("No node founds...");
+            }
+        }
     }
 
     @Override

@@ -4,8 +4,8 @@ public class Runner {
     public static void main(String[] args) {
         MyListLinked myList = new MyListLinked();
 
-        myList.insert(myList, 1);
-        myList.insert(myList, 2);
+        myList.add(myList, 1);
+        myList.add(myList, 2);
         myList.show(myList);
 
         Node[] nodes = new Node[5];

@@ -5,7 +5,7 @@ public class MyListLinked implements CustomLinkedList{
     Node[] all;
 
     @Override
-    public MyListLinked insert(MyListLinked list, int data) {
+    public MyListLinked add(MyListLinked list, int data) {
         Node newNode = new Node(data);
         if (list.head == null) {
             list.head = newNode;
@@ -39,7 +39,7 @@ public class MyListLinked implements CustomLinkedList{
     public void addAll(MyListLinked list, Node[] nodes) {
         for (Node node : nodes) {
             node = new Node(new Random().nextInt(10));
-            list.insert(list, node.getData());
+            list.add(list, node.getData());
         }
     }
 }

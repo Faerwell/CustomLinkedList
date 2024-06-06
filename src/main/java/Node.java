@@ -1,3 +1,5 @@
+import javax.xml.crypto.NodeSetData;
+
 public class Node {
     private int data;
     public Node next;
@@ -9,5 +11,9 @@ public class Node {
 
     public int getData() {
         return data;
+    }
+
+    public void setData(int data) {
+        this.data = data;
     }
 }
